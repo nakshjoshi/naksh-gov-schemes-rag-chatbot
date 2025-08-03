@@ -1,0 +1,38 @@
+MySchemeMultiLingualBot/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── gen_dir_tree.py
+│
+├── data/
+│   ├── 1.raw/                       # Raw scraped JSON data
+│   ├── 2.useful_extracted/          # Extracted useful fields (CSV/JSON)
+│   ├── 3.enhancing_blank_data/      # Enhanced data output
+│   ├── 4.clean_pre-process_data/    # Final cleaned dataset
+│   └── 5.chunking/                  # Chunked data for vector DB
+│
+├── chroma_db/                       # Vector database files
+│
+├── src/
+│   ├── scraping/                    # Web scraping & enhancement scripts
+│   │   ├── 1.initialDataCollector.py
+│   │   ├── 2.usefulDataExtractor.py
+│   │   ├── 3.enhancer.py
+│   │   └── 4.data-cleaner.py
+│   │
+│   ├── pre-processing/              # Chunking scripts
+│   │   ├── v1_chunk_schemes.py
+│   │   └── v2_hybrid_chunking_script.py
+│   │
+│   ├── vectordb/                    # Vector DB setup & retrieval logic
+│   │   ├── chromaDB_setup_script.py
+│   │   ├── v1_advanced_retrieval.py
+│   │   ├── v2_advance_retrieval.py
+│   │   ├── v3_final_advanced_retrieval.py
+│   │   └── automated_retrieval_test.py
+│   │
+│   └── app/                         # Streamlit conversational apps
+│       ├── convoApp.py
+│       └── hindiConvoApp.py
+│
+└── folder_structure.txt             # Auto-generated folder tree

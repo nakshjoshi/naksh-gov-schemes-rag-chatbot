@@ -1,0 +1,14 @@
+beautifulsoup4
+pinecone
+deep-translator
+google-generativeai
+langdetect
+nltk
+pandas
+requests
+selenium
+sentence-transformers
+streamlit
+tqdm
+transformers
+webdriver-manager
